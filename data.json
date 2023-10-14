@@ -1,0 +1,17 @@
+[
+    {
+      "nombre": "Juan",
+      "apellido": "Perez",
+      "edad": 29,
+      "email": "juanperez11@gmail.com",
+      "contra": "holasoyjuan"
+    },
+    {
+        "nombre": "Pedro",
+        "apellido": "Navas",
+        "edad": 30,
+        "email": "pnavas40@outlook.com",
+        "contra": "pepenavas23"
+      }
+  ]
+  
