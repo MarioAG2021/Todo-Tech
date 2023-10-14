@@ -55,8 +55,9 @@
             </nav>
         </header>
         <main>
-            <!-- USUARIO registro-->
+            <!-- USUARIO -->
             <section class="entrar-registrar">
+                <!-- USUARIO Inicio de Sesión -->
                 <div id="iniciar-sesion" style="display: none;">
                     <form action class="formulario-ini" method="get" id="formularioInicioSesion">
                         <h1>INICIA SESIÓN<br></h1>
@@ -79,6 +80,7 @@
 
                              if (usuarioEncontrado) {
                             console.log('Inicio de sesión exitoso para el usuario:', usuarioEncontrado.username);
+
                             } else {
                             console.log('Credenciales incorrectas. Inicio de sesión fallido.');
                                     }
@@ -104,6 +106,7 @@
                         });
                     </script>
                 </div>
+                <!-- USUARIO REGISTRO-->
                 <div id="registrar">
                     <form action class="formulario-reg">
                         <h1>Registrarse </h1>
