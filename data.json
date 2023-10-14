@@ -1,17 +1,16 @@
-[
+{
+  "usuarios": [
     {
-      "nombre": "Juan",
-      "apellido": "Perez",
-      "edad": 29,
-      "email": "juanperez11@gmail.com",
-      "contra": "holasoyjuan"
+      "username": "Juan@gmail.com",
+      "password": "contra1"
     },
     {
-        "nombre": "Pedro",
-        "apellido": "Navas",
-        "edad": 30,
-        "email": "pnavas40@outlook.com",
-        "contra": "pepenavas23"
-      }
+      "username": "pedro@gmail.com",
+      "password": "contra2"
+    },
+    {
+      "username": "pablo@gmail.com",
+      "password": "contra3"
+    }
   ]
-  
+}
