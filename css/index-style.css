@@ -127,7 +127,7 @@ nav a:hover{
     position: relative;
     margin: 10px;
 }
-#iniciar-sesion, #registrar, #enviar-consulta{
+#iniciar-sesion, #registrar, #enviar-consulta, #enviarCV{
         /*width: 80%;*/
         width: max-content;
         padding: 35px 45px;
@@ -137,12 +137,12 @@ nav a:hover{
         border-radius: 10%;
 }
 
-.bot_entrar, .bot_registrar{
+.bot_entrar, .bot_registrar, .bot_enviarCV{
     padding: 10px 40px;
     font-weight: 650;
     cursor: pointer;
 }
-.bot_entrar:hover, .bot_registrar:hover{
+.bot_entrar:hover, .bot_registrar:hover, .bot_enviarCV:hover{
     color: azure;
     background: #559bb0;
 }
