@@ -111,7 +111,7 @@ function eliminarProducto(e) {
 vaciarCarrito.addEventListener("click", vaciarProductosCarrito); 
 
 function vaciarProductosCarrito(){
-   //  vaciarCarrito.length=0; 
+   //vaciarCarrito.length=0; 
   
    carrito.length=0;
     
