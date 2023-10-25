@@ -249,6 +249,8 @@ nav a:hover{
     background-color: orange;
 }
 @media screen and (max-width: 650px){
+
+    
     .contacto {
         grid-template-columns: auto;
     }
@@ -262,4 +264,32 @@ nav a:hover{
         width: 100%;
         text-align: center;
     }
+}
+
+
+/*MENU DE CATEORIAS DE LOS PRODUCTOS*/
+ /*
+
+}*/
+li ul{
+    display: none;
+    
+}
+li:hover ul{
+   display: flex;
+   position: absolute;
+   z-index: 1;
+   background-color: rgba(250, 235, 215, 0.448);
+   width: max-content;
+   margin-left:-30%; 
+   padding: 1rem 2rem; 
+   background-color: #c7e8f27b;
+   border:none; 
+
+   
+}
+ul li:hover ul li{
+    box-sizing: content-box;
+    padding: 1px;
+    transition: 0.15s;
 }
