@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no ,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="css/index-style.css">
+    <link rel="stylesheet" href="css/carrito-style.css">
     <link rel="icon" type="image/x-icon" href="img/logo_transparent.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +12,7 @@
     <title>Todo Tech</title>
 </head>
 <body>
-<script src="js/prueba-menu.js"> </script>
+
 <!-- LISTA DE PRODUCTOR-->
 <header class="header-container">
     <div class="header-container-1">
@@ -31,11 +31,14 @@
         </div>
         <div class ="two-elem-container"> 
             <div><!-- carrito-->
-                <button ><a href="carrito.html"><img src="img/carrito-de-compras.png" width="20px"></a>
+                <button id="boton-carrito"  type="button" >
+                    <a href="carrito.html"><img src="img/carrito-de-compras.png" width="20px"></a>
+                    <span id="cantidad-productos" class="num-productos ">0</span>
                 </button>
             </div>
             <div><!-- iniciar sesion-->
                 <button><a href="usuario.html"><img src="img/usuario.png" width="20px"></a>
+                
                 </button>
             </div>
         </div>
@@ -78,7 +81,7 @@
     </div>
     <div id="footer1"><!--Medios de pagos - Preguntas Frecuentes - Trabaja con nosotros-->
         <p>Conoce nuestros medios de pagos: <br> <a class="footer-A" href="mediosdepago.html">Medios de pagos</a></p>
-        <p><a class="footer-A" href="preguntas-frecuentes.html">Preguntas Frecuentes</a></p>
+        <p><a class="footer-A" id="bpreguntas" type="button" onclick="bpregfr()">Preguntas Frecuentes</a></p>
         <p><a class="footer-A" href="trabajaconnostros.html">Trabaja con nosotros</a></p>
         <p><a class="footer-A" href="quienessomos.html">¿Quienes somos?</a></p>
     </div>
