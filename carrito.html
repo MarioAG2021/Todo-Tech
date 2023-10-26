@@ -14,43 +14,52 @@
 </head>
 <body>
     
-    <header class="header-container">
-        <div class="header-container-1">
-            <div id="logo"> <!-- logo-->
-                <a href="index.html"><img src="img/logo_transparent.png" width="100px"></a>
+<header class="header-container">
+    <div class="header-container-1">
+        <div id="logo"> <!-- logo-->
+            <a href="index.html"><img src="img/logo_transparent.png" width="100px"></a>
+        </div>
+        <div class="search"> <!--busqueda-->
+            <form action ="#">
+                <input type="text"
+                placeholder="Buscar..."
+                name="search">
+                <button>
+                    <img src="img/busqueda.png" alt="lupa" width="10px"> 
+                </button>
+            </form>
+        </div>
+        <div class ="two-elem-container"> 
+            <div><!-- carrito-->
+                <button ><a href="carrito.html"><img src="img/carrito-de-compras.png" width="20px"></a>
+                </button>
             </div>
-            <div class="search"> <!--busqueda-->
-                <form action ="#">
-                    <input type="text"
-                    placeholder="Buscar..."
-                    name="search">
-                    <button>
-                        <img src="img/busqueda.png" alt="lupa" width="10px"> 
-                    </button>
-                </form>
-            </div>
-            <div class ="two-elem-container"> 
-                <div><!-- carrito-->
-                    <button >
-                        <a href="carrito.html"><img src="img/carrito-de-compras.png" width="20px"></a>
-                        <span id="cantidad-productos" class="num-productos">0</span>
-
-                    </button>
-                </div>
-                <div><!-- iniciar sesion-->
-                    <button><a href="usuario.html"><img src="img/usuario.png" width="20px"></a>
-                    </button>
-                </div>
+            <div><!-- iniciar sesion-->
+                <button><a href="usuario.html"><img src="img/usuario.png" width="20px"></a>
+                </button>
             </div>
         </div>
+    </div>
     <!--<div class="menu_bar">
         <a href="#" class="bt-menu">Menu</a>
     </div>-->
     <nav> 
         <ul class="categories-container"><!-- navegador de categorias-->
             <li><a href="index.html">Inicio</a></li>
-            <li class ="boton-productos">
+            <li class="boton-productos">
                 <a href="productos.html" id="categoria-titulo">Productos</a>
+                <ul class="menu-categorias-productos">
+                    <li><a href = "productos.html" > Todos los productos</a></li>
+                    <li><a href="#audio" id="audio" class="categoria">Audio</a></li>
+                    <li><a href="#auriculares" id="auriculares" class="categoria">Auriculares</a></li>
+                    <li><a href="#camaras" id="camaras" class="categoria">Camaras</a></li>
+                    <li><a href="#celulares" id="celulares" class="categoria">Celulares</a></li>
+                    <li><a href="#monitores" id="monitores" class="categoria">Monitores</a></li>
+                    <li><a href="#mouse-y-teclado" id="mouse-y-teclado" class="categoria">Mouse y teclado</a></li>
+                    <li><a href="#notebooks" id="notebooks" class="categoria">notebooks</a></li>
+                    <li><a href="#tablets" id="tablets" class="categoria">tablets</a></li>
+                </ul>
+            </li>
             <li><a href="contactos.html">Contacto</a></li>
         </ul>
     </nav>
