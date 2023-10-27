@@ -268,9 +268,10 @@ nav a:hover{
         text-align: center;
     }
     
-    #contenedor1{
+     #contenedor1{
         background-color: #c7e8f2;
         width: 90%;
+        max-height: 1000px;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(5, 1fr);
     }
