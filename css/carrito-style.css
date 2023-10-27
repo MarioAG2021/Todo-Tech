@@ -583,14 +583,17 @@ ul li:hover ul li{
 
 /* FOOTER */
 #contenedor1{
+    width: 100%;
+    max-width: 1800px;
+    margin: auto;
     background-color: #c7e8f2;
     font-family: 'Gabarito', cursive;
     color: rgb(44, 44, 51);
     height: auto;
     text-align: center;
     display: grid;
-    grid-template-columns: 10% 25% 25% 25% auto;
-    grid-template-rows: 95%;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     justify-content:center;
 }
 .footer-A{
@@ -626,4 +629,30 @@ ul li:hover ul li{
 
 #footer4{
     margin: 15px;
+}
+
+@media screen and (max-width: 650px){
+
+    
+    .contacto {
+        grid-template-columns: auto;
+    }
+    #enviar-consulta{
+        text-align: center;
+        width: 100%;
+        padding: 10px 93px;
+        margin-left: -20px;
+    }
+    #iniciar-sesion, #registrar, #enviar-consulta{
+        width: 100%;
+        text-align: center;
+    }
+    
+    #contenedor1{
+        background-color: #c7e8f2;
+        width: 90%;
+        max-height: 1000px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
 }
