@@ -217,7 +217,7 @@ nav a:hover{
     overflow: hidden;
 }
 .carrousel .grande{
-    width: 150%;
+    width: 200%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
