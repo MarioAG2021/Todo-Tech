@@ -1,3 +1,4 @@
+
 let carrito =localStorage.getItem("productos-carrito"); 
 carrito= JSON.parse(carrito); 
 
@@ -114,7 +115,7 @@ function vaciarProductosCarrito(){
    //vaciarCarrito.length=0; 
   
    carrito.length=0;
-    
+   
 
     //guardo el json en localStorage
     localStorage.setItem("productos-carrito", JSON.stringify(carrito)); 

@@ -286,6 +286,7 @@ li ul{
     display: none;
     
 }
+/*
 li:hover ul{
    display: flex;
    position: absolute;
@@ -304,3 +305,4 @@ ul li:hover ul li{
     padding: 1px;
     transition: 0.15s;
 }
+*/
