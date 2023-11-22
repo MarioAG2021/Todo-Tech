@@ -40,3 +40,20 @@ function regi() {
 //variables
 const usuario_nuevo = {nombre:"", apellido:"", email:"", password:""};
 
+function validarFormulario() {
+    //elementos del formulario
+    const nombreInput = document.getElementById('nombre');
+    const apellidoInput = document.getElementById('apellido');
+    const emailInput = document.getElementById('email');
+    const mensajeInput = document.getElementById('mensaje');
+    const comentarioEnviado = document.getElementById('comentarioEnviado');
+
+    // Valida que todos los campos estén completos
+    if (nombreInput.value.trim() === '' || apellidoInput.value.trim() === '' || emailInput.value.trim() === '' || mensajeInput.value.trim() === '') {
+        alert('Por favor, completa todos los campos del formulario.');
+        mensajeValidacion.innerText = '';
+        return false;
+    }
+    alert('Comentario enviado, Gracias por su consulta.');
+    return true;
+}

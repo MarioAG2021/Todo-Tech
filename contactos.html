@@ -77,13 +77,13 @@
         </div>
         <div id="enviar-consulta">
             <h2>Envianos tus <br> consultas</h2>
-                <form action="#" method="get">
-                    <input type="text" placeholder="Nombre" id="nombre" name="nombre"><br><br>
-                    <input type="text" placeholder="Apellido" id="apellido" name="apellido"><br><br>
-                    <input type="email" placeholder="example@email.com" id="email" name="email"><br><br>
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Deja aqui tu consulta/mensaje...."></textarea><br><br>
-                    <button id="bot_enviar"> Enviar</button>
-                </form>
+            <form action="#" method="get" id="formulario-contacto" onsubmit="return validarFormulario()">
+                <input type="text" placeholder="Nombre" id="nombre" name="nombre"><br><br>
+                <input type="text" placeholder="Apellido" id="apellido" name="apellido"><br><br>
+                <input type="email" placeholder="example@email.com" id="email" name="email"><br><br>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Deja aquí tu consulta/mensaje...."></textarea><br><br>
+                <button type="submit" id="bot_enviar">Enviar</button>
+            </form>
         </div>
     </section>
 

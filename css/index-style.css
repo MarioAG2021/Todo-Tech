@@ -220,7 +220,7 @@ nav a:hover{
     width: 200%;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     /*padding: 2em;*/
     transition: all .5s ease;
@@ -230,6 +230,9 @@ nav a:hover{
   width: calc(100% / 2 - 0.5em);
   height: 250px;
   min-height: 10vh;
+  max-width: 20%;
+  max-height: 100%;
+  objetc-fit: contain;
 }
 .carrousel .puntos{
     width: 100%;
